@@ -1,4 +1,4 @@
-{"backend_state":"ready","kernel":"python3-ubuntu","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"language_info":{"name":"python"},"orig_nbformat":4},"type":"settings"}
+{"backend_state":"init","kernel":"python3-ubuntu","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"language_info":{"name":"python"},"orig_nbformat":4},"type":"settings"}
 {"cell_type":"code","id":"060322","input":"val = ret()\nprint(val)","metadata":{"vscode":{"languageId":"plaintext"}},"pos":38,"state":"done","type":"cell"}
 {"cell_type":"code","id":"0a2964","input":"print('PythOn'.lower())\nprint('python'.lower())\nprint('PythOn'.lower()=='python'.lower())","metadata":{"vscode":{"languageId":"plaintext"}},"pos":28,"state":"done","type":"cell"}
 {"cell_type":"code","id":"1bdcbc","input":"def func():\n    pass # pass just means there's nothing here - stops the code from breaking","metadata":{"vscode":{"languageId":"plaintext"}},"pos":30,"state":"done","type":"cell"}
@@ -44,5 +44,5 @@
 {"cell_type":"markdown","id":"cb6b74","input":"<h1>Validating guesses</h1>","pos":24,"state":"done","type":"cell"}
 {"cell_type":"markdown","id":"da1043","input":"For this section, we will be creating the game loop. To do that, we need a dictionary. A sample of that is supplied here (make sure to run the next cell, but you don't need to do anything with it)","pos":13,"state":"done","type":"cell"}
 {"cell_type":"markdown","id":"eb1112","input":"But how will the student know what to write? To adress this, the input function allows us to give a prompt","pos":19,"state":"done","type":"cell"}
-{"id":0,"time":1658253949899,"type":"user"}
+{"id":0,"time":1658341080964,"type":"user"}
 {"last_load":1658253950187,"type":"file"}
