@@ -69,5 +69,5 @@
 {"cell_type":"markdown","id":"e9b027","input":"Notice: This assumes you divert your entire paycheck to student loans and there is no interest. While this gives a guidline, that does hurt the usefullness, as different areas may allow to divert different amounts. Look out for this type of error in your own work","pos":53,"type":"cell"}
 {"cell_type":"markdown","id":"ee8530","input":"##### Using .head() [first 5 rows] and .tail() [last 5 rows] is a great way to get a first look at our data","pos":11,"type":"cell"}
 {"cell_type":"markdown","id":"ff8364","input":"Now we check and see there are no more null values!","pos":28,"type":"cell"}
-{"id":0,"time":1658163848177,"type":"user"}
+{"id":0,"time":1658251891436,"type":"user"}
 {"last_load":1658163849411,"type":"file"}
