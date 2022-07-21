@@ -54,4 +54,4 @@
 {"cell_type":"raw","id":"01c970","input":"What do these columns mean?\nThe column names sort the data. The study name is likely different data recorded by different people who conducted the same experiment at different times. Culmen length is the length of their bill. Culman depth is the \"height\" of the beak.Not sure what delta 15 N and delta 13 C are.","pos":12,"type":"cell"}
 {"cell_type":"raw","id":"4153a7","input":"Write up some descriptions for your findings here....\n\n\n\n\n","pos":52,"type":"cell"}
 {"id":0,"time":1658328437393,"type":"user"}
-{"last_load":1658350719834,"type":"file"}
+{"last_load":1658411049978,"type":"file"}

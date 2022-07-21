@@ -1,48 +1,48 @@
-{"backend_state":"init","kernel":"python3-ubuntu","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"language_info":{"name":"python"},"orig_nbformat":4},"type":"settings"}
-{"cell_type":"code","id":"060322","input":"val = ret()\nprint(val)","metadata":{"vscode":{"languageId":"plaintext"}},"pos":38,"state":"done","type":"cell"}
-{"cell_type":"code","id":"0a2964","input":"print('PythOn'.lower())\nprint('python'.lower())\nprint('PythOn'.lower()=='python'.lower())","metadata":{"vscode":{"languageId":"plaintext"}},"pos":28,"state":"done","type":"cell"}
-{"cell_type":"code","id":"1bdcbc","input":"def func():\n    pass # pass just means there's nothing here - stops the code from breaking","metadata":{"vscode":{"languageId":"plaintext"}},"pos":30,"state":"done","type":"cell"}
-{"cell_type":"code","id":"26aa2c","input":"del dict['key2']\nprint(dict)","metadata":{"vscode":{"languageId":"plaintext"}},"pos":9,"state":"done","type":"cell"}
-{"cell_type":"code","id":"387fac","input":"","metadata":{"vscode":{"languageId":"plaintext"}},"pos":22,"state":"done","type":"cell"}
-{"cell_type":"code","id":"3f26c4","input":"counter = 0\ndef inc():\n    counter += 1\ninc()\ncounter","metadata":{"vscode":{"languageId":"plaintext"}},"pos":40,"state":"done","type":"cell"}
-{"cell_type":"code","id":"6a28ac","input":"param('AI','CAMP')","metadata":{"vscode":{"languageId":"plaintext"}},"pos":34,"state":"done","type":"cell"}
-{"cell_type":"code","id":"7677ee","input":"def param(arg0, arg1):\n    print(arg0, arg1)","metadata":{"vscode":{"languageId":"plaintext"}},"pos":32,"state":"done","type":"cell"}
-{"cell_type":"code","id":"783932","input":"guess = input('enter your guess')\n# or\nprompt = 'enter your guess'\nguess = input(prompt)","metadata":{"vscode":{"languageId":"plaintext"}},"pos":20,"state":"done","type":"cell"}
-{"cell_type":"code","id":"7be381","input":"guess = 'English is a good language'\nanswer = 'Python is the best language!'\nif guess == answer:\n    print('goood job! you got it right!')\nelse:\n    print('To bad. The answer was:', answer) # note: when the print function is given 2 inputs, it prints both seperated by a space","metadata":{"vscode":{"languageId":"plaintext"}},"pos":26,"state":"done","type":"cell"}
-{"cell_type":"code","id":"936472","input":"dict['key2'] = 'value2'\nprint(dict)","metadata":{"vscode":{"languageId":"plaintext"}},"pos":7,"state":"done","type":"cell"}
-{"cell_type":"code","id":"a2e5ad","input":"def ret():\n    return 'Bananas'","metadata":{"vscode":{"languageId":"plaintext"}},"pos":36,"state":"done","type":"cell"}
-{"cell_type":"code","id":"a700a4","input":"print('counter value:', counter)","metadata":{"vscode":{"languageId":"plaintext"}},"pos":42,"state":"done","type":"cell"}
-{"cell_type":"code","id":"acc3e6","input":"for key, value in dict:\n    print(key,value)","metadata":{"vscode":{"languageId":"plaintext"}},"pos":16,"state":"done","type":"cell"}
-{"cell_type":"code","id":"bbe35d","input":"dict = {'key0':'value0', 'key1':'value1', 'key2':'value2'}","metadata":{"vscode":{"languageId":"plaintext"}},"pos":14,"state":"done","type":"cell"}
-{"cell_type":"code","id":"c49f37","input":"","metadata":{"vscode":{"languageId":"plaintext"}},"pos":44,"state":"done","type":"cell"}
-{"cell_type":"code","id":"c4ef65","input":"dict = {'key0':'value0', 'key1':'value1'}","metadata":{"vscode":{"languageId":"plaintext"}},"pos":3,"state":"done","type":"cell"}
-{"cell_type":"code","id":"df4958","input":"","metadata":{"vscode":{"languageId":"plaintext"}},"pos":11,"state":"done","type":"cell"}
-{"cell_type":"code","id":"ef80b9","input":"guess = input()","metadata":{"vscode":{"languageId":"plaintext"}},"pos":18,"state":"done","type":"cell"}
-{"cell_type":"code","id":"ffe366","input":"print(dict['key1'])","metadata":{"vscode":{"languageId":"plaintext"}},"pos":5,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"04d555","input":"Now make a dictionary of the flashcards (name it flashcards so other code syncs together) (the definition should be the key)","pos":10,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"05ba55","input":"This loops through each pair in the dictionary, saving the key to the variable key, and the value to the variable value\n\nNow that we have the keys, we can collect the user's guess using the input function and assign the result to a variable","pos":17,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"0f7ae8","input":"Aditionally, we can add an entry like this:","pos":6,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"139515","input":"We can compare our guess with the answer using an if else block","pos":25,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"15fabc","input":"A function can also take in parameters (the number isn't limited):","pos":31,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"1d6e4c","input":"when your piece works, add the code check(v1,v2) to the end of your loop (where v1 is the name of your guess variable, and v2 is the name of the answer)","pos":23,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"21cd65","input":"Then we can call it like this:","pos":33,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"2a372b","input":"If you have a variable, you can also increment it in a function, like this","pos":39,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"350df2","input":"When we have this dictionary, we can run through it with a for loop like this:","pos":15,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"369dc7","input":"<h1>Running the loop</h1>","pos":12,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"36d6a3","input":"To make this easier, we can package this all into a function, which we can define as follows:","pos":29,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"47f75e","input":"Now put this all together: (if you want to use return, you can work to integrate it with your team)","pos":43,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"58edb4","input":"And finally, we can remove an entry like this:","pos":8,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"670f35","input":"In python, we can create a dictionary like this:","pos":2,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"72b220","input":"Notice the curly braces, which denote a dictionary, and the colon, which pairs the key and the value. The values paired together can be anything.\n\nThis pairing allows us to access the value like this (and we can print with the print() statement):","pos":4,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"7f58c8","input":"<h3>The Flashcards</h3>","pos":1,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"811556","input":"But what if our user enters 'Python' and we wanted 'python' or the other way around? to do this, we make the cases match:","pos":27,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"82dbba","input":"Additionally, a function can hand back a value using a return statement","pos":35,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"9fad6d","input":"Now you can put it together to make the loop:","pos":21,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"aaa469","input":"Then print it like this","pos":41,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"b4e23b","input":"<h1>Flash Card Mini Project</h1>\nThis is a project covering a range of python topics, from storage to functions. This lets you define flashcards, then test your knowledge against them.\n\nThis project is broken into 3 parts. The first covers creating and storing the flashcards, the second covers creating the loop, and the third covers validating the input","pos":0,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"bd3184","input":"This value can then be accessed as follows: (If you use parameters, the value can change based on the situation)","pos":37,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"cb6b74","input":"<h1>Validating guesses</h1>","pos":24,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"da1043","input":"For this section, we will be creating the game loop. To do that, we need a dictionary. A sample of that is supplied here (make sure to run the next cell, but you don't need to do anything with it)","pos":13,"state":"done","type":"cell"}
-{"cell_type":"markdown","id":"eb1112","input":"But how will the student know what to write? To adress this, the input function allows us to give a prompt","pos":19,"state":"done","type":"cell"}
-{"id":0,"time":1658341080964,"type":"user"}
-{"last_load":1658253950187,"type":"file"}
+{"backend_state":"init","kernel":"python3-ubuntu","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"language_info":{"name":"python"},"orig_nbformat":4},"trust":false,"type":"settings"}
+{"cell_type":"code","exec_count":0,"id":"060322","input":"val = ret()\nprint(val)","metadata":{"vscode":{"languageId":"plaintext"}},"pos":38,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"0a2964","input":"print('PythOn'.lower())\nprint('python'.lower())\nprint('PythOn'.lower()=='python'.lower())","metadata":{"vscode":{"languageId":"plaintext"}},"pos":28,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"1bdcbc","input":"def func():\n    pass # pass just means there's nothing here - stops the code from breaking","metadata":{"vscode":{"languageId":"plaintext"}},"pos":30,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"26aa2c","input":"del dict['key2']\nprint(dict)","metadata":{"vscode":{"languageId":"plaintext"}},"pos":9,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"387fac","input":"","metadata":{"vscode":{"languageId":"plaintext"}},"pos":22,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"3f26c4","input":"counter = 0\ndef inc():\n    counter += 1\ninc()\ncounter","metadata":{"vscode":{"languageId":"plaintext"}},"pos":40,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"6a28ac","input":"param('AI','CAMP')","metadata":{"vscode":{"languageId":"plaintext"}},"pos":34,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"7677ee","input":"def param(arg0, arg1):\n    print(arg0, arg1)","metadata":{"vscode":{"languageId":"plaintext"}},"pos":32,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"783932","input":"guess = input('enter your guess')\n# or\nprompt = 'enter your guess'\nguess = input(prompt)","metadata":{"vscode":{"languageId":"plaintext"}},"pos":20,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"7be381","input":"guess = 'English is a good language'\nanswer = 'Python is the best language!'\nif guess == answer:\n    print('goood job! you got it right!')\nelse:\n    print('To bad. The answer was:', answer) # note: when the print function is given 2 inputs, it prints both seperated by a space","metadata":{"vscode":{"languageId":"plaintext"}},"pos":26,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"936472","input":"dict['key2'] = 'value2'\nprint(dict)","metadata":{"vscode":{"languageId":"plaintext"}},"pos":7,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"a2e5ad","input":"def ret():\n    return 'Bananas'","metadata":{"vscode":{"languageId":"plaintext"}},"pos":36,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"a700a4","input":"print('counter value:', counter)","metadata":{"vscode":{"languageId":"plaintext"}},"pos":42,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"acc3e6","input":"for key, value in dict:\n    print(key,value)","metadata":{"vscode":{"languageId":"plaintext"}},"pos":16,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"bbe35d","input":"dict = {'key0':'value0', 'key1':'value1', 'key2':'value2'}","metadata":{"vscode":{"languageId":"plaintext"}},"pos":14,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"c49f37","input":"","metadata":{"vscode":{"languageId":"plaintext"}},"pos":44,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"c4ef65","input":"dict = {'key0':'value0', 'key1':'value1'}","metadata":{"vscode":{"languageId":"plaintext"}},"pos":3,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"df4958","input":"","metadata":{"vscode":{"languageId":"plaintext"}},"pos":11,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"ef80b9","input":"guess = input()","metadata":{"vscode":{"languageId":"plaintext"}},"pos":18,"type":"cell"}
+{"cell_type":"code","exec_count":0,"id":"ffe366","input":"print(dict['key1'])","metadata":{"vscode":{"languageId":"plaintext"}},"pos":5,"type":"cell"}
+{"cell_type":"markdown","id":"04d555","input":"Now make a dictionary of the flashcards (name it flashcards so other code syncs together) (the definition should be the key)","pos":10,"type":"cell"}
+{"cell_type":"markdown","id":"05ba55","input":"This loops through each pair in the dictionary, saving the key to the variable key, and the value to the variable value\n\nNow that we have the keys, we can collect the user's guess using the input function and assign the result to a variable","pos":17,"type":"cell"}
+{"cell_type":"markdown","id":"0f7ae8","input":"Aditionally, we can add an entry like this:","pos":6,"type":"cell"}
+{"cell_type":"markdown","id":"139515","input":"We can compare our guess with the answer using an if else block","pos":25,"type":"cell"}
+{"cell_type":"markdown","id":"15fabc","input":"A function can also take in parameters (the number isn't limited):","pos":31,"type":"cell"}
+{"cell_type":"markdown","id":"1d6e4c","input":"when your piece works, add the code check(v1,v2) to the end of your loop (where v1 is the name of your guess variable, and v2 is the name of the answer)","pos":23,"type":"cell"}
+{"cell_type":"markdown","id":"21cd65","input":"Then we can call it like this:","pos":33,"type":"cell"}
+{"cell_type":"markdown","id":"2a372b","input":"If you have a variable, you can also increment it in a function, like this","pos":39,"type":"cell"}
+{"cell_type":"markdown","id":"350df2","input":"When we have this dictionary, we can run through it with a for loop like this:","pos":15,"type":"cell"}
+{"cell_type":"markdown","id":"369dc7","input":"<h1>Running the loop</h1>","pos":12,"type":"cell"}
+{"cell_type":"markdown","id":"36d6a3","input":"To make this easier, we can package this all into a function, which we can define as follows:","pos":29,"type":"cell"}
+{"cell_type":"markdown","id":"47f75e","input":"Now put this all together: (if you want to use return, you can work to integrate it with your team)","pos":43,"type":"cell"}
+{"cell_type":"markdown","id":"58edb4","input":"And finally, we can remove an entry like this:","pos":8,"type":"cell"}
+{"cell_type":"markdown","id":"670f35","input":"In python, we can create a dictionary like this:","pos":2,"type":"cell"}
+{"cell_type":"markdown","id":"72b220","input":"Notice the curly braces, which denote a dictionary, and the colon, which pairs the key and the value. The values paired together can be anything.\n\nThis pairing allows us to access the value like this (and we can print with the print() statement):","pos":4,"type":"cell"}
+{"cell_type":"markdown","id":"7f58c8","input":"<h3>The Flashcards</h3>","pos":1,"type":"cell"}
+{"cell_type":"markdown","id":"811556","input":"But what if our user enters 'Python' and we wanted 'python' or the other way around? to do this, we make the cases match:","pos":27,"type":"cell"}
+{"cell_type":"markdown","id":"82dbba","input":"Additionally, a function can hand back a value using a return statement","pos":35,"type":"cell"}
+{"cell_type":"markdown","id":"9fad6d","input":"Now you can put it together to make the loop:","pos":21,"type":"cell"}
+{"cell_type":"markdown","id":"aaa469","input":"Then print it like this","pos":41,"type":"cell"}
+{"cell_type":"markdown","id":"b4e23b","input":"<h1>Flash Card Mini Project</h1>\nThis is a project covering a range of python topics, from storage to functions. This lets you define flashcards, then test your knowledge against them.\n\nThis project is broken into 3 parts. The first covers creating and storing the flashcards, the second covers creating the loop, and the third covers validating the input","pos":0,"type":"cell"}
+{"cell_type":"markdown","id":"bd3184","input":"This value can then be accessed as follows: (If you use parameters, the value can change based on the situation)","pos":37,"type":"cell"}
+{"cell_type":"markdown","id":"cb6b74","input":"<h1>Validating guesses</h1>","pos":24,"type":"cell"}
+{"cell_type":"markdown","id":"da1043","input":"For this section, we will be creating the game loop. To do that, we need a dictionary. A sample of that is supplied here (make sure to run the next cell, but you don't need to do anything with it)","pos":13,"type":"cell"}
+{"cell_type":"markdown","id":"eb1112","input":"But how will the student know what to write? To adress this, the input function allows us to give a prompt","pos":19,"type":"cell"}
+{"id":0,"time":1658414557778,"type":"user"}
+{"last_load":1658414557691,"type":"file"}
