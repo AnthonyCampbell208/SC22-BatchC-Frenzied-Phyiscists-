@@ -104,5 +104,5 @@
 {"cell_type":"markdown","id":"f4cd37","input":"Next, we'll take a look at while loops. In general, you can make a while loop do anything that a for loop can do but with slightly different syntax, so if you find youself understanding while loops better than for loops, you can just focus on using while loops. \n\n","pos":40,"type":"cell"}
 {"cell_type":"markdown","id":"fb3d0f","input":"In the block below, we will make a while loop that runs 5 times. For while loops, we can't specify how long they will run for ahead of time so its important for us to create an achievable exit condition. An exit condition is just the condition that will cause the code to stop running. This is checked every time, immediatly before the code runs or reruns. We want to make sure that this condition will eventually happen, otherwise the code will run until something crashes or we manually close it\n\n","pos":41,"type":"cell"}
 {"cell_type":"markdown","id":"fc40e8","input":"In the block below, create a function that takes in 2 numbers and returns True if the product of the numbers is positive and False in all other cases.","pos":68,"type":"cell"}
-{"id":0,"time":1658415699804,"type":"user"}
-{"last_load":1658415698590,"type":"file"}
+{"id":0,"time":1658773261286,"type":"user"}
+{"last_load":1658773261584,"type":"file"}
