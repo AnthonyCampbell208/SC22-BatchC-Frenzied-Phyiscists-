@@ -1,4 +1,4 @@
-{"backend_state":"ready","kernel":"ds_env","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"colab":{"collapsed_sections":[],"name":"Cancer_detection.ipynb","provenance":[]},"language_info":{"name":"python"}},"type":"settings"}
+{"backend_state":"init","kernel":"ds_env","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"colab":{"collapsed_sections":[],"name":"Cancer_detection.ipynb","provenance":[]},"language_info":{"name":"python"}},"type":"settings"}
 {"cell_type":"code","id":"0136d9","input":"# Visualization 2 here\n","metadata":{"id":"oQXBTNye681E"},"pos":27,"state":"done","type":"cell"}
 {"cell_type":"code","id":"0c6dd9","input":"#make some predictions based on your testing inputs (x_test) using the predict() function\ny_hat = my_KNN_model.predict(x_test)","metadata":{"id":"CVBaqGOIiEfP"},"pos":44,"state":"done","type":"cell"}
 {"cell_type":"code","id":"244210","input":"breast_cancer[\"outcome\"] = dummies[\"M\"]\nbreast_cancer.head()","metadata":{"id":"QtT1BaBF5M3V"},"pos":21,"state":"done","type":"cell"}
@@ -65,5 +65,5 @@
 {"cell_type":"markdown","id":"e73bf5","input":"**Creating the model object:**  we need to create an instance of the model. This is like having a model and giving it a nickname so we can remember it, change it, and save it to work custom on our dataset. ","metadata":{"id":"tv1P3go2_U5O"},"pos":39,"state":"done","type":"cell"}
 {"cell_type":"markdown","id":"f212d1","input":"**TODO:** can you look at the shape of the x_train, x_test, y_train, and y_test columns? Why does the shape of these columns make sense? ","metadata":{"id":"rcQ-PJQF9XSA"},"pos":33,"state":"done","type":"cell"}
 {"cell_type":"markdown","id":"f607c8","input":"Compute your MSE below. Is this higher or lower than KNN? Which one would you recommend so far?","metadata":{"id":"k-ANsXzitBdu"},"pos":59,"state":"done","type":"cell"}
-{"id":0,"time":1658769660014,"type":"user"}
+{"id":0,"time":1658842666460,"type":"user"}
 {"last_load":1658769660917,"type":"file"}

@@ -54,5 +54,5 @@
 {"cell_type":"markdown","id":"ff3684","input":"**What does inplace mean?** This argument in the `drop()` function means we are changing the dataframe in place! If we had `inplace = False`, we would need to create a new dataframe like so: \n\n`new_penguins_dataframe = penguins_dataframe.drop(columns_to_drop, axis=1, inplace = False)`\n\n**TODO:** Can you drop the Sample Number, Individual ID, Delta 15 N \\(o/oo\\), and Delta 13 C \\(o/oo\\) columns using the example above?\n\n","pos":15,"type":"cell"}
 {"cell_type":"raw","id":"08efc6","input":"What do these columns mean?\n# The columns mean the information about individual penguins within different species.\n\n\n\n\n\n","pos":12,"type":"cell"}
 {"cell_type":"raw","id":"5ae892","input":"Write up some descriptions for your findings here....\n\n\n\n\n","pos":53,"type":"cell"}
-{"id":0,"time":1658773272249,"type":"user"}
-{"last_load":1658773272141,"type":"file"}
+{"id":0,"time":1658844564075,"type":"user"}
+{"last_load":1658844562603,"type":"file"}

@@ -53,4 +53,4 @@
 {"cell_type":"raw","id":"97746e","input":"What do these columns mean?\n\nClutch completion- \"clutch\" refers to a nest of eggs, clutch completion for penguins is 2 eggs \nCulmen- the culmen is the dorsal ridge of a penguin's bill \nDelta 15 N- the number denotes the measure of the ratio of stable isotopes 15N:14N\nDelta 13 C- the number denotes the measure of the ratio of stable isotopes 13C:12C\n\n\n\n\n\n\n","pos":11,"type":"cell"}
 {"cell_type":"raw","id":"a3245f","input":"Write up some descriptions for your findings here....\n\n\n\n\n","pos":51,"type":"cell"}
 {"id":0,"time":1658770634272,"type":"user"}
-{"last_load":1658770634223,"type":"file"}
+{"last_load":1658844161953,"type":"file"}

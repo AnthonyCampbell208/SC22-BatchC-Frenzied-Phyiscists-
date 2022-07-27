@@ -70,4 +70,4 @@
 {"cell_type":"markdown","id":"ee8530","input":"##### Using .head() [first 5 rows] and .tail() [last 5 rows] is a great way to get a first look at our data","pos":11,"type":"cell"}
 {"cell_type":"markdown","id":"ff8364","input":"Now we check and see there are no more null values!","pos":28,"type":"cell"}
 {"id":0,"time":1658762578498,"type":"user"}
-{"last_load":1658762574327,"type":"file"}
+{"last_load":1658844503276,"type":"file"}
