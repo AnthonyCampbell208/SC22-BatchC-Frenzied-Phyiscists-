@@ -69,5 +69,5 @@
 {"cell_type":"markdown","id":"f07daf","input":"Something to note aboout the below table, some green / blue values could be 'good' while others could be 'bad'. <br>\nE.g. Having a top 10% in 'average_early_career_pay' could be good, but having a top 10% 'years to repay out of state 4 year uni based on early career pay' would be less awesome.","pos":58,"type":"cell"}
 {"cell_type":"markdown","id":"fa13f7","input":"## Analyzing Our Data <a class=\"anchor\" id=\"Analyze\"></a>\nHere we want to start looking at our data in the context of our original goal. <br> \"Are There Associations With University Tuition & Professional Pay on a State-by-State Basis?\"<br> To do this I'm going to manually create a dataset, getting first the number of schools in that state, and then the average of statistics I am investigating.","pos":48,"type":"cell"}
 {"cell_type":"markdown","id":"fa7773","input":"We also want information on what data TYPE each of the columns are","pos":17,"type":"cell"}
-{"id":0,"time":1658770892471,"type":"user"}
-{"last_load":1658770889110,"type":"file"}
+{"id":0,"time":1659368644950,"type":"user"}
+{"last_load":1659368641679,"type":"file"}
