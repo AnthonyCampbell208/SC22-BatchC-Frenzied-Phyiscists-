@@ -7265,7 +7265,7 @@ textarea.form-control-lg {
   margin-left: auto !important;
 }
 
-.my-0 {
+.-ima-0 {
   margin-top: 0 !important;
   margin-bottom: 0 !important;
 }
@@ -11357,7 +11357,7 @@ p {
   letter-spacing: 0.0625em;
   text-transform: uppercase;
 }
-#mainNav .navbar-brand img {
+#mainNav .navbar-brand {
   height: 1.5rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -11776,4 +11776,11 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.heart_disease_image1{
+    """background-image:url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.webmd.com%2Fdtmcms%2Flive%2Fwebmd%2Fconsumer_assets%2Fsite_images%2Farticle_thumbnails%2Fslideshows%2Fdid_you_know_this_could_lead_to_heart_disease_slideshow%2F650x350_did_you_know_this_could_lead_to_heart_disease_slideshow.jpg&imgrefurl=https%3A%2F%2Fwww.webmd.com%2Fheart-disease%2Fss%2Fslideshow-heart-disease-surprising-causes&tbnid=ZgWvzxiJRoCWwM&vet=12ahUKEwiEpK_CkKb5AhUPO-wKHS6tATcQMygAegUIARDJAQ..i&docid=6xD5VZlaNbq_pM&w=650&h=350&q=heart%20disease%20photo&ved=2ahUKEwiEpK_CkKb5AhUPO-wKHS6tATcQMygAegUIARDJAQ)"""
+    background-color: cyan;
+}
+.fas fa-lock fa-stack-1x fa-inverse{
+    background-image:url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fimg.webmd.com%2Fdtmcms%2Flive%2Fwebmd%2Fconsumer_assets%2Fsite_images%2Farticle_thumbnails%2Fslideshows%2Fdid_you_know_this_could_lead_to_heart_disease_slideshow%2F650x350_did_you_know_this_could_lead_to_heart_disease_slideshow.jpg&imgrefurl=https%3A%2F%2Fwww.webmd.com%2Fheart-disease%2Fss%2Fslideshow-heart-disease-surprising-causes&tbnid=ZgWvzxiJRoCWwM&vet=12ahUKEwiEpK_CkKb5AhUPO-wKHS6tATcQMygAegUIARDJAQ..i&docid=6xD5VZlaNbq_pM&w=650&h=350&q=heart%20disease%20photo&ved=2ahUKEwiEpK_CkKb5AhUPO-wKHS6tATcQMygAegUIARDJAQ);
 }

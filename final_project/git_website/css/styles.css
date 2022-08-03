@@ -5496,7 +5496,7 @@ textarea.form-control-lg {
 }
 .modal.fade .modal-dialog {
   transition: transform 0.3s ease-out;
-  transform: translate(0, -50px);
+/*   transform: translate(0, -50<sub></sub><sub></sub><sub></sub>px); */
 }
 @media (prefers-reduced-motion: reduce) {
   .modal.fade .modal-dialog {
@@ -11409,8 +11409,8 @@ header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  color: #000000;
+  background-image: url("../assets/img/header.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
