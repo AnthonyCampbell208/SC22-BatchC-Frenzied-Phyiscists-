@@ -47,5 +47,5 @@
 {"cell_type":"markdown","id":"603df8","input":"A random forest classifier is an ensemble of decision trees that work together to classify data. Each decision tree in the random forest individually classifies the data, and the outcome with the most votes becomes the final outcome of the model. I used randomized cv to find the best hyperparameters for the model. The max number of estimators is 67, the max depth is 90, and the model has an accuracy of 0.89, which is greater than an individual decision tree. \n\n","pos":42,"type":"cell"}
 {"cell_type":"markdown","id":"81930b","input":"A neural network works through different layers. There is 1 input layer, 1 output layer, and a custom amount of hidden layers. The different nodes in the hidden layers are supposed to simulate how brains work. Basically, each node is a combination of the inputs in some way. My neural network also works with a validation split, which are a part of the training split. They make sure that the model is moving in the right direction when training. This neural network has 3 hidden layers with a 0.88 accuracy rating.\n","pos":19,"type":"cell"}
 {"id":"1ca8ad","input":"","pos":23.5,"type":"cell"}
-{"id":0,"time":1659627224767,"type":"user"}
+{"id":0,"time":1659635930769,"type":"user"}
 {"last_load":1659621496784,"type":"file"}
