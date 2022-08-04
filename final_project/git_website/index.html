@@ -19,10 +19,13 @@
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
-            <div class="container">
-              <p style="color:white;">Heart Disease Prediction</p>
-
-                <a class="navbar-brand" href="#page-top"><img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/1723252/human-heart-clipart-xl.png" alt="..." /></a>
+            <div class="container" >
+              <div style="white-space:nowrap">
+                
+                <a class="navbar-brand" style="color:white; font-family:Montserrat; font-weight:400" href="#page-top">
+                Heart Disease Prediction</a>
+                  <a class="navbar-brand" href="#page-top"><img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/1723252/human-heart-clipart-xl.png" alt="..." /></a>
+              </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars ms-1"></i>
@@ -108,11 +111,6 @@
                                 <div class="portfolio-caption-heading">Correlation Matrix</div>
                                 <div class="portfolio-caption-subheading text-muted">Displays the correlation between variables</div>
                                 <!-- change button to make it look better :) -->
-                       </iframe>          <br />
-                                
-                                     
-                                </button>
-                                </a>
                             </div>
                         </div>
                     </div>
@@ -123,8 +121,6 @@
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
-                              
-
                                 <img class="img-fluid" src="https://cdn-icons-png.flaticon.com/512/3723/3723440.png" />
                             </a>
                             <div class="portfolio-caption">
@@ -133,12 +129,15 @@
                             </div>
                         </div>
                     </div>
+              
+              
+              
+              
                     <div class="col-lg-4 col-sm-6 mb-4">
                         <!-- Portfolio item 3-->
-                        <div class="portfolio-item">x
+                        <div class="portfolio-item">
                             <a class="portfolio-link" 
-                            data-bs-toggle="modal"
-                             href="#portfolioModal3">
+                             data-bs-toggle="modal" href="#portfolioModal3">
                                 <div class="portfolio-hover">
                                     <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
                                 </div>
@@ -207,7 +206,12 @@
                 </div>
                 <ul class="timeline">
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounx.com/png/943959-200.png" alt="..." /></div>
+                        <div class="timeline-image">
+<!--                           change popup for model, add hover css-->
+<!--                           or we could add an entirely new modal ig -->
+<!-- how would same modal work? -->
+<!--                           wdym same modal? -->
+                         <img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/961660-200.png" alt="..." data-bs-toggle="modal" href="#portfolioModal7"/></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4 class="subheading">Decision Trees</h4>
@@ -215,10 +219,8 @@
                             <div class="timeline-body"><p class="text-muted">Decision tree models use supervised learning and can be used for classification and regression. They classify data by passing it through different nodes based the data's attributes. The data is then classified once it reaches a “leaf”, or a node that does not split.</p></div>
                         </div>
                     </li>
-                    
-                      
                   <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/1503830-200.png" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/1503830-200.png" alt="..." data-bs-toggle="modal" href="#portfolioModal8"/></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4 class="subheading"> Random Forest</h4>
@@ -228,7 +230,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/1503819-200.png" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/1503819-200.png" alt="..." data-bs-toggle="modal" href="#portfolioModal9"/></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4 class="subheading">Adaboost</h4>
@@ -238,7 +240,7 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/2046068-200.png" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/2046068-200.png" alt="..."data-bs-toggle="modal" href="#portfolioModal10" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4 class="subheading">Logistic Regression</h4>
@@ -247,7 +249,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/2312011-200.png" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/2312011-200.png" alt="..." data-bs-toggle="modal" href="#portfolioModal11"/></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4 class="subheading">Support Vector Classifier</h4>
@@ -257,7 +259,7 @@
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/614252-200.png" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/614252-200.png" alt="..." data-bs-toggle="modal" href="#portfolioModal12"/></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4 class="subheading"> Naive Bayes</h4>
@@ -266,18 +268,18 @@
                         </div>
                     </li>
                   <li>
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/969745-200.png" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/969745-200.png" alt="..."data-bs-toggle="modal" href="#portfolioModal13" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4 class="subheading">K Nearest Neighbors</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">KNN stands for K-Nearest-Neighbors. 
+                            <div class="timeline-body"><p class="text-muted">KNN stands for K-Nearest-Neighbors.
 It finds the data points that the input are closest to and then uses that data to classifies the input.
 </p></div>
                         </div>
                     </li>
                   <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/1503825-200.png" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/1503825-200.png" alt="..."data-bs-toggle="modal" href="#portfolioModal14" /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4 class="subheading"> Neural Network</h4>
@@ -286,12 +288,17 @@ It finds the data points that the input are closest to and then uses that data t
                         </div>
                     </li>
                 </ul>
-          
-        <iframe width="750" height="500" title="Type/Flight Box Plot" src="visualizations/violin_age.html"></iframe>
-        
-          
+              <br/>
+        <div align='center'>
+                              <h2 class="section-heading text-uppercase">Results</h2>
+        <iframe width="1000" height="400" title="Box Plot" src="visualizations/scores.html"></iframe>
+          <p>
+           Words words words   
+          </p>
+                            </div>
+          </div>
         </section>
-  
+          
         <!-- Team-->
         <section class="page-section bg-light" id="team">
             <div class="container">
@@ -315,7 +322,7 @@ It finds the data points that the input are closest to and then uses that data t
                             <img class="mx-auto rounded-circle" src="assets/img/team/2.jpg" alt="..." />
                             <h4></h4>
                             <p class="text-muted">Thomas Li</p>
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Simple Introduction paragraph </p></div>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">I am from Massachusetts and have loved AI and coding since a young age. I like eating ice I  </p></div>
                         </div>
                     </div>
                     <div class="col-lg-4">
@@ -331,7 +338,7 @@ It finds the data points that the input are closest to and then uses that data t
                             <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
                             <h4></h4>
                             <p class="text-muted">Rhone Galchen</p>
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Simple Introduction paragraph </p></div>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">I am from New York and am interested in coding and AI, and enjoy playing chess and soccer </p></div>
                     </div>
                   </div>
                     <div class="col-lg-4">
@@ -340,7 +347,7 @@ It finds the data points that the input are closest to and then uses that data t
                             <h4></h4>
                             <p class="text-muted">Emma Morales</p>
                      <div class="row">
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Simple Introduction paragraph </p></div>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Hi! My name is Emma and I am from Texas. I am interested in computer science and AI. I also love to play music and learn new things.  </p></div>
                         </div>
                   </div>
                     </div>
@@ -350,7 +357,7 @@ It finds the data points that the input are closest to and then uses that data t
                             <h4></h4>
                             <p class="text-muted">Halli Hewett</p>
                             <div class="col-lg-8 mx-auto text-center">
-                              <p class="large text-muted">Simple Introduction paragraph </p>
+                              <p class="large text-muted">Hello! My name is Halli. I am from Texas and I had fun coding and working on this project. In my free time I read and play piano.</p>
                             </div>
                     </div>
                     </div>
@@ -359,95 +366,15 @@ It finds the data points that the input are closest to and then uses that data t
                             <img class="mx-auto rounded-circle" src="assets/img/team/1.jpg" alt="..." />
                             <h4></h4>
                             <p class="text-muted">Kenju Tomita</p>
-                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Interested in AI and very passionate about it and its potential</p></div>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">I am very interested in</p></div>
                     </div>
                       </div>
           </div>
           </div>
         </section>
-        <!-- Clients-->
-        <div class="py-5">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." aria-label="Microsoft Logo" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/google.svg" alt="..." aria-label="Google Logo" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/facebook.svg" alt="..." aria-label="Facebook Logo" /></a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 my-3">
-                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." aria-label="IBM Logo" /></a>
-                    </div>
-                </div>
-            </div>
-        </div>
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">This is a test</h3>
-                </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                          
-                          
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                    <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
-                </form>
             </div>
         </section>
         <!-- Footer-->
@@ -517,18 +444,13 @@ It finds the data points that the input are closest to and then uses that data t
                                     <h2 class="text-uppercase">Heart Disease Predictor</h2>
                                     <p class="item-intro text-muted">Histograms</p>
 <p class="item-intro text-muted">A graph that shows the count distributions of different variables</p>
-                                    <iframe width= 860 height=850  title="Type/Flight Correlation Matrix" src="visualizations/histogram_Sex_OldPeak_HF.html"></iframe>
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Explore
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
-                                        </li>
-                                    </ul>
+                                      <p align = "left">
+                                <iframe width= 850 height=850 title="Histogram_Age_HF" src="visualizations/histogram_Age_HF.html"></iframe></p>
+                                  <p>The turning point within the dataset is ages forty-six to forty-seven. When you compare the data of the ages of those younger than forty-six to forty-seven, more people do NOT have heart failure. Whereas after ages forty-six to forty-seven, more people had heart failure than people who did not. The peak of the count of people who had heart failure was centered at around ages fifty-four to sixty-three with age ranges of fifty-six to fifty-seven and ages fifty-eight to fifty-nine both having the greatest count of 51 participants having heart failure.  The distribution of the graph of people without heart failure is distributed differently. The highest count of people who did NOT have heart failure was 45 participants ages fifty-four to fifty-five.  The graph of people without heart failure is less smooth, with a greater change between age ranges.</p> 
+                                      
+                                   
+                                   <a href="./histogram.html"><button class="btn btn-primary btn-xl text-uppercase"  type="button"><i class="fas fa-xmark me-1"></i>
+                                     Read More </button></a>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         Close Project
@@ -551,7 +473,10 @@ It finds the data points that the input are closest to and then uses that data t
                                 <div class="modal-body">
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Boxplots</h2>
-                                    <p class="item-intro text-muted">Boxplots are a type of visualization that shows the distribution of data</p>
+                                    <p class="item-intro text-muted">Boxplots are a type of visualization that shows the distribution of data<br><br><br><br><br><br></p>
+                                  <p><font size="8"  color="black">
+Heart Disease vs Cholesterol
+</font></p>
                                   <iframe width="1000" height="800" title="Box Plot" src="visualizations/box_cholesterol_hd.html"></iframe>
                                     <!--<img class="img-fluid d-block mx-auto" src="assets/img/portfolio/3.jpg" alt="..." /> -->
                                     <p>This visualizations shows a boxplot of cholesterol between the two groups of people with and without heart disease.
@@ -560,17 +485,26 @@ For the people without heart disease, the cholesterol is between 203  and 269. T
 There seems to be not a big difference between these two groups. That is because the ranges for the boxplots are essentially the same and the outliers for both groups are very similar as well. The people with heart disease are slightly more spread out than the people without heart disease but that could be because of our sample size. We would think that cholesterol would not be a very important feature for distinguishing between people with and without heart disease.
 
 </p>
+                                  <p><font size="8"  color="black">
+Heart Disease vs Maximum Heartrate
+</font></p>
                                   <iframe width="1000" height="800" title="Box Plot" src="visualizations/box_maxhr_hd.html"></iframe>
                                   <p>This visualization shows the Maximum heart rate for two groups, one with heart disease, and one without. In the heart disease boxplot, 50% of the data is between 112 and 144.5, and the rest of the data is between 67 and 182
 In the group without heart disease, the boxplot shows that 50% of the data is between 134 and 165, and the rest of the data is between 90 and 202
 The group without heart disease seems to have a much higher heart rate compared to the group with heart disease. From this data, we can conclude that heart rate might be an important factor in determining if someone has heart disease.
 
 </p>
-                                  <iframe width="800" height="800" title="Box Plot" src="visualizations/box_restingbp_hd.html"></iframe>
+                                   <p><font size="8"  color="black">
+Heart Disease vs Resting Blood Pressure
+</font></p>
+                                  <iframe width="1000" height="800" title="Box Plot" src="visualizations/box_restingbp_hd.html"></iframe>
                                   <p>This boxplot shows the restingBP for two groups, one with heart disease and one without. In the heart disease boxplot, 50% of the data is between 120 and 145, and the rest of the data is between 92 and 180
 In the group without heart disease, the boxplot shows that 50% of the data is between 120 and 140, and the rest of the data is between 94 and 170
 There does not seem to be much of a significant difference between these two groups in terms of RestingBP. From this, we would not think RestingBP has much of an indication on whether or not someone has heart disease or not.
 </p>
+                                  <p><font size="8"  color="black">
+Heart Disease vs Age
+</font></p>
                                   <iframe width="1000" height="800" title="Box Plot" src="visualizations/box_age_hd.html"></iframe>
                                   <p>This visualization is a box plot that shows the correlation between age and heart disease, one group with heart disease and the other without. In the heart disease boxplot, 50% of the data is between 51and 62, and the rest of the data is between 35 and 77
 In the group without heart disease, the boxplot shows that 50% of the data is between 43 and 57, and the rest of the data is between 28 and 76.
@@ -604,7 +538,7 @@ This shows a clear correlation between age, and whether or not someone has heart
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
                     <div class="container">
-                        <div class="row justify-content-center">
+                       <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
@@ -621,10 +555,17 @@ Typical Angina (TA) = 3
 
 Overall, 54% of patients were asymptomatic and experienced no chest pain. The second most prevalent pain was non-anginal pain, followed by atypical angina. A small minority experienced typical angina. In patients with heart disease, an overwhelming majority were asymptomatic, with only 22.86% experiencing any pain. A minority of patients with heart disease had typical angina and atypical angina. However, in patients without heart disease, a third suffered non-anginal pain and another third suffered atypical angina. Asymptomatic chest pain made up a quarter of patients without heart disease, and a minority suffered typical angina. Among both groups, typical angina was the least common type of chest pain. However, a much larger percentage of patients with heart disease were asymptomatic compared to patients without heart disease.</p>
                                <iframe width="500" height="500" title="Pie Chart" src="visualizations/pie_overall_angina.html"></iframe>
-                               <iframe width="800" height="800" title="Pie Chart" src="visualizations/pie_comp_angina.html"></iframe>
+                               <iframe width="800" height="700" title="Pie Chart" src="visualizations/pie_comp_angina.html"></iframe>
+                                  <p>
+                                    
+No = 0
+Yes = 1
+
+A majority of patients did not experience exercise angina. However, in patients with heart disease, an overwhelming majority (85.2%) experienced exercise angina. In great contrast, about two thirds of patients without heart disease did not experience exercise angina and around a third did. Heart disease could be a factor that contributes to exercise angina, but exercise angina is not necessarily an indicator of heart disease considering a considerable amount of patients without heart disease experienced it as well.
+                                  </p>
                                   
                                   
-                                    <ul class="list-inline">
+                                  <!--  <ul class="list-inline">
                                         <li>
                                             <strong>Client:</strong>
                                             Lines
@@ -633,7 +574,7 @@ Overall, 54% of patients were asymptomatic and experienced no chest pain. The se
                                             <strong>Category:</strong>
                                             Branding
                                         </li>
-                                    </ul>
+                                    </ul>-->
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         Close Project
@@ -683,20 +624,264 @@ Overall, 54% of patients were asymptomatic and experienced no chest pain. The se
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Nam</h2>
-                                    <p class="item-intro text-muted">Part to whole relationships.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Window
-                                        </li>
+                                   <h2 class="text-uppercase">Violin Plot</h2>
+                                    <p class="item-intro text-muted">Distribution and density of numerical data.</p>
+                                  <iframe width="800" height="700" title="Violin Plot" src="visualizations/violin_cholesterol.html"></iframe>                                 
+                                    <p>Interestingly, it seems like cholesterol levels are very similar in all groups. While the values in the male group with heart disease have a larger range than its sibling, the female group's graphs are the opposite. Additionally, the distributions overlap almost entirely, with the heart disease group only being slightly higher in cholesterol levels than the no heart disease group.</p>
+                                       
+                                                                                                  <a href="./violin.html"><button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                       
+                                        Read More
+                                    </button>
+                                      </a>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>              
+          
+          
+          
+<!--           </li>
                                         <li>
                                             <strong>Category:</strong>
                                             Photography
                                         </li>
                                     </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Portfolio item 7 modal popup (temp)-->
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                   <h2 class="text-uppercase">Decision Tree</h2>
+                                  <img src="https://cocalc3.ai-camp.dev/d5a3aa23-997d-4ffc-977a-1dc20c583e62/raw/.smc/jupyter/blobs/a.png?sha1=97e7d93e603664dc6a45879b8179fcb10f2efbb4&attempts=0" alt="Decision Tree" width = 1000 height = 950/>
+                                    <p class="item-intro text-muted"></p>
+                                  <p>A decision tree classifier model classifies data as it passes through the nodes in the tree and uses the gini index to determine where to split. In order to optimize the decision tree, I used cv and randomized cv to find the best hyperparameters. Hyperparameters are attributes of models that can be changed to yield more accurate results. Some of the hyperparamaters that can be changed for decision trees include max depth, which controls how many times the tree splits, minimum samples split, which controls the number of samples needed to split an internal node, and minimum samples leaf, which controls the minimum number of samples needed at a leaf. It has a max depth of 54, minimum samples split of 33, minimum samples leaf of 11, and accuracy of 0.84  </p>
+                        <img src="confusion_matrices/dt.jpg" alt="DT heat map" width = 346 height = 248/>            
+                                  <p> The confusion matrix above displays the results from the decision tree's training and testing. The top left square represents the number of true positives (Correctly diagnosing the patient with heart disease), the bottom left square represents false positives (Incorrectly diagnosing a patient with heart disease when they do not), top right represents false negatives (Incorrectly saying a patient does not have heart disease when they do), and the bottom represents true negatives (Correctly saying a patient does not have heart disease). Ideally, the number of false negatives and false positives would be as low as possible, which is acheived through optimization.     </p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+          
+          
+        <!-- Portfolio item 8 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Random Forest</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <p>A random forest classifier is an ensemble of decision trees that work together to classify data. Individually, decision trees are weak models, but are powerful when they work together. Each decision tree in the random forest individually classifies the data, and the outcome with the most votes becomes the final outcome of the model. I used randomized cv to find the best hyperparameters for the model. The hyperparameters of random forest models are similar to decision trees, with the added parameter, max number of estimators which controls the max number of decision trees used in the model.The max number of estimators is 67, the max depth is 90, and the model has an accuracy of 0.89, which is greater than an individual decision tree.</p>
+                                  <img src="confusion_matrices/rf.jpg" alt="RF heat map" width = 352 height = 248/>
+                                  <p> The confusion matrix above displays the results of the random forest's training and testing. Compared to the decision tree, the number of false negatives and false positives is lower. 
+                                    
+                                  </p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 9 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Adaboost</h2>
+                                    <p class="item-intro text-muted"></p>
+                               <!--   <img src="https://cocalc3.ai-camp.dev/d5a3aa23-997d-4ffc-977a-1dc20c583e62/raw/.smc/jupyter/blobs/a.png?sha1=c8b003cfb30b7ba05c8a660ead70bf6eb2863e10&attempts=0" alt="Adaboost heat map" />-->
+                                    <p>
+Adaboost is an example of ensemble learning, where several basic algorithms are combined to make one more optimized algorithm. For example, with a decision tree, instead of hoping one decision tree can correctly guess a result, ensemble learning will take multiple decision trees and combine them together to create a stronger algorithm.
+
+Adaboost is also a sequential learning version of ensemble learning, where every model is made in order, and the newest model learns from the previous model's failures. It does this by "boosting", or reducing the error through methods such as increasing the weights of data that was mislabeled.
+
+However, Adaboost is extremely sensitive to noisy data and outliers, which is why it is highly recommended to remove outliers from data with Adaboost.
+
+Here, Adaboost was used on our heart disease dataset, with a mean squared error of 0.12 on our testing data, and an overall accuracy score of 0.880 and a precision score of 0.880. There were 13 false positives and 9 false negatives. This is a decent score for a machine learning model, but when it comes to diagnosis it probably isn't the best and there is certainly a more ideal model.
+</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 10 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Logistic Regression</h2>
+                                    <p class="item-intro text-muted">text</p>
+                                  <img src="https://cocalc3.ai-camp.dev/d5a3aa23-997d-4ffc-977a-1dc20c583e62/raw/.smc/jupyter/blobs/a.png?sha1=0dc2221b6f39dd0fd704be0c36c39e9b414dee61&attempts=0" alt="LR heat map" />
+                                    <p>The model is a logistic regression and it works by predicting whether someone has heart disease or if they do not. It classifies them into one of these two groups . We changed some parameters such as the weight, training and testing data. I think it performed well in predicting if someone has heart disease and classifying them into two groups. It does this by analyzing relationships between two independent variables. The coefficient of the linear regression model shows the relationship between the variables by multiplying it with a certain value and a higher/lower coefficient indicates which classification the data point would be predicted to be in.
+
+</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 11 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                 
+                                    <h2 class="text-uppercase">Support Vector Classifer(SVC)</h2>
+                                    <p class="item-intro text-muted">Confusion Matrix below(top left is correct positive, top right is false positive, bottom left is false negative, and bottom right is correct negative.</p>
+                                  <img width = "500" height = "500" src = "confusion_matrices/my_SVC_model.jpg">
+                                    <p>
+Support Vector Classification Model uses two groups of data to categorize new data. It does this by plotting the data onto a graph, and then using a hyperplane to split the data according to the group that the data belongs to. The hyper-parameters that could be fine tuned are the Kernel, the C value, the Gamma value, and the Degree. I decided to use a RandomizedSearchCV to determine the best parameters. When testing, for the best parameters, I ran into some problems. The first problem was how long it took too long to run the program. The program would run for about thirty minutes, and still not find a best fit for the graph. In response, I decided to decrease the amount of variables the RandomizedSearchCV needed to look for, and additionally, the range that each variable could search within. In the end, I decided that testing the C value, the Gamma value, and the Kernel would be most helpful in optimizing the model. According to my values the RandomizedSearchCV determine the best parameters was a Kernel of linear, a Gamma value of 96, and a C value of 9. I ended up getting an accuracy score of 0.72 with 56 true positive,  24 false positives, 27, false negatives, and 77 true negatives.
+</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 12 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Gaussian Naive Bayes</h2>
+                                    <img src="confusion_matrices/gnb.jpg">
+                                   
+                                    <p class="item-intro text-muted">The image you see above is a confusion matrix that displays in the top left correct positive diagnosis, top right incorrect positive diagnose, bottom left incorrect negative diagnosis, bottom right correct negative diagnosis </p>
+                                    <p>Gaussian Naive Bayes is for binary classification and assumes that all continuous data has normal distribution, and that all features are independent and equal from each other. The Naive Bayes finds the probability of the predicted outcome(y variable) given the x values and then classifies the point based on whether one of the classifications had a higher probability than the other classification. In order to optimize the function, I stratified the data, which raised the accuracy score from 0.83 to 0.885 while also scaling the data though that did not cause a change in the accuracy score or any of the other measures. The results ending up giving a accuracy score of 0.885, a precision score of 0.878, a recall score of 0.921, and an f1 score of 0.899. This resulted in 8 false negatives and 13 false positives out of 184 points in what I believe can be described as an accurate model.
+
+33
+
+</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 13 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">K Nearest Neighbors</h2>
+                                    <img src="confusion_matrices/knn_confusion_matrix.png">  
+                                    <p>KNN works through proximity to make classifications or predictions about the grouping of an individual data point. Our KNN model had a accuracy of 86% and a recall of 90%. Above is a confusion matrix depicting the results of our model on the testing data set and it shows that this model has a higher chance of a false positive than a false negative.
+</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 14 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Neural Network</h2>
+                                  <p>Our neural network for this project had 3 hidden layers. We trained it with a 0.3 validation split for 25 epochs. The result is a model that hovers at around 85-89% accuracy.` 
+</p>
+                                    <img src="confusion_matrices/cnn_confusion_matrix.png">
+                                    <p> Above is a confusion matrix which shows the predictions versus the actual results on the testing data set. We can see that in 18 cases, the model guessed that the patient had heart disease when they did not and in 12 cases where the model guessed the patient didn't have heart disease when they did. 
+</p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         Close Project
@@ -713,9 +898,11 @@ Overall, 54% of patients were asymptomatic and experienced no chest pain. The se
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * *                               SB Forms JS                                           <iframe width="800" height="700" title="Pie Chart" src="visualizations/pie_comp_chest_pain.html"></iframe>
+                      * *-->
         <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
+
