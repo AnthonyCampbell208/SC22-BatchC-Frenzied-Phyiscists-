@@ -20,119 +20,54 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
             <div class="container" >
-              <p style="color:white;">Heart Disease Prediction</p>
-
-                <a class="navbar-brand" href="#page-top"><img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/1723252/human-heart-clipart-xl.png" alt="..." /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ms-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
+<!--               <p style="color:white;"></p> -->
+              <div style="white-space:nowrap">
+                
+                  <a class="navbar-brand" style="color:white; font-family:Montserrat; font-weight:400" href="./index.html#portfolio">
+                Heart Disease Prediction</a>
+                  <a class="navbar-brand" href="./index.html#portfolio"><img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/1723252/human-heart-clipart-xl.png" alt="..." /></a>
+              </div>
+              
+<!--                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="index.html">Return to Main Page</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#services">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Visualization</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Models</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
-                </div>
+                </div> -->
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead">
+              <section class="page-section" id="services" style="padding-top: 10rem">
             <div class="container">
-                <div class="masthead-subheading">A graph that shows the count distributions of different variables</div>
-                <div class="masthead-heading text-uppercase"> Histograms </div>
-                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
-            </div>
-        </header>
-      <body style="margin:25px;">
-       <div>
-         <iframe width= 860 height=850  title="Histograms_Sex" src="visualizations/histogram_Sex.html"></iframe>
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Histograms</h2>
+                    <h3 class="section-subheading text-muted">A graph that shows the count distributions of different variables</h3>
+                </div>
+                <div class="row text-center">
+         <iframe height="500px" title="Histograms_Sex" src="visualizations/histogram_Sex.html"></iframe>
         <p>This histogram above displays the total count of the sex of participants within the data set. Females were represented by 0, and Males were represented by 1. There were 193 females and 725 males, making a total of 918 data entries. This data should be taken into consideration when considering the accuracy of the results that can be predicted with this data. The predicted results for the males will likely be more accurate because there is more data to base the predictions off of.</p>
-      </div>
-      <div>
-        <iframe width= 1500 height=600  title="Histogram_Age" src="visualizations/histogram_Age.html"></iframe>
+        <iframe height="500px" title="Histogram_Age" src="visualizations/histogram_Age.html"></iframe>
        <p class = "indent">The histogram above shows the ages of the participants of the data set.  The youngest participants were twenty-eight to twenty-nine years old, while the oldest participants were seventy-six to seventy-seven years old. We can see that the greatest amount of participants was in the age group of fifty-four to fifty-five year olds, with a total of 92 participants. </p>
-      </div>
-      <div>
-        <iframe width= 1500 height=600  title="Histogram_Age_HF" src="visualizations/histogram_Age_HF.html"></iframe>
-        <p class = "indent">The turning point within the dataset is ages forty-six to forty-seven. When you compare the data of the ages of those younger than forty-six to forty-seven, more people do NOT have heart failure. Whereas after ages forty-six to forty-seven, more people had heart failure than people who did not. The peak of the count of people who had heart failure was centered at around ages fifty-four to sixty-three with age ranges of fifty-six to fifty-seven and ages fifty-eight to fifty-nine both having the greatest count of 51 participants having heart failure.  The distribution of the graph of people without heart failure is distributed differently. The highest count of people who did NOT have heart failure was 45 participants ages fifty-four to fifty-five.  The graph of people without heart failure is less smooth, with a greater change between age ranges.</p>
-      </div>
-       <div>
-         <iframe width = 1500 height = 600 title = "Histogram_Cholesterol_RestingBP_HF" src = "visualizations/histogram_Cholesterol_RestingBP_HF.html"></iframe>
-      <p class = "indent">The graph of the cholesterol level of people with and without heart disease are very similar.  The data for cholesterol levels was measured in millimoles per deciliters. Some other data to consider is that there was outliers in this graph. An example of this was some participants had a cholesterol level of 0. I am not certain that  this measurement was an error so I decided to not include that data point in the range of this graph. For people with and without heart failure, both of the graphs peaked at around the same level with people who had heart disease at a cholesterol level of 200-219 mm/dL., and those without peaking at 220-239 mm/dL..</p>
+        <iframe height="500px" title="Histogram_Age_HF" src="visualizations/histogram_Age_HF.html"></iframe>
+        <p class = "indent"><br /> <br />The turning point within the dataset is ages forty-six to forty-seven. When you compare the data of the ages of those younger than forty-six to forty-seven, more people do NOT have heart failure. Whereas after ages forty-six to forty-seven, more people had heart failure than people who did not. The peak of the count of people who had heart failure was centered at around ages fifty-four to sixty-three with age ranges of fifty-six to fifty-seven and ages fifty-eight to fifty-nine both having the greatest count of 51 participants having heart failure.  The distribution of the graph of people without heart failure is distributed differently. The highest count of people who did NOT have heart failure was 45 participants ages fifty-four to fifty-five.  The graph of people without heart failure is less smooth, with a greater change between age ranges.</p>
+         <iframe height="500px" title = "Histogram_Cholesterol_RestingBP_HF" src = "visualizations/histogram_Cholesterol_RestingBP_HF.html"></iframe>
+      <p class = "indent"><br /> <br />The graph of the cholesterol level of people with and without heart disease are very similar.  The data for cholesterol levels was measured in millimoles per deciliters. Some other data to consider is that there was outliers in this graph. An example of this was some participants had a cholesterol level of 0. I am not certain that  this measurement was an error so I decided to not include that data point in the range of this graph. For people with and without heart failure, both of the graphs peaked at around the same level with people who had heart disease at a cholesterol level of 200-219 mm/dL., and those without peaking at 220-239 mm/dL..</p>
       <p class = "indent"> The graph of the resting blood pressure of people with and without heart disease was also very similar. Between each range, for both people with and without heart disease, the count of the participants that had a certain level at which their resting blood pressure increased and decreased between ranges. Every five, the count would increase, and then the next five, it would decrease.
 Based on these two graphs, I would conclude that Cholesterol Level and Resting Blood Pressure do not play a great factor in predicting whether a person has heart failure, as the graphs of people with and without heart failure for both categories are too similar.</p>
-      </div>
-      <div>
-        <iframe width = 1000 height = 500 title = "Histogram_MaxHR_HF" src = "visualizations/histograms_MaxHR_HF.html"></iframe>
-      <p class = "indent"> Maximum Heart Rate could be a factor that could greatly influence whether someone has heart disease or not. The graph of people without heart failure is skewed to having a higher maximum heart rate than the graph of people with heart failure which is skewed to the lower end. Both graphs are placed on the same scale so that the counts of the graphs can be compared. While the counts of people who did Not have heart failure are lower than the counts of people who did HAVE heart failure, the graphs give a clear indication people who do not have heart failure have a higher maximum heart rate.</p>
-      </div>
-      <div>
-        <iframe width = 1500 height = 500 title = "Histogram_Sex_OldPeak_HF" src = "visualizations/histogram_Sex_OldPeak_HF.html"></iframe>
-      <p class = "indent">Again, this first graph illustrates the Sex of participants with and without heart failure. Like the histogram of just the distribution of the sex without relation to heart failure, there are more males than females in the study. However, what the previous histogram didn't reveal was that in this data set, more males had heart disease than did not which compared to females had more females without heart disease than who did. </p>
+        <iframe height="500px" title = "Histogram_MaxHR_HF" src = "visualizations/histograms_MaxHR_HF.html"></iframe>
+      <p class = "indent"> <br /> <br />Maximum Heart Rate could be a factor that could greatly influence whether someone has heart disease or not. The graph of people without heart failure is skewed to having a higher maximum heart rate than the graph of people with heart failure which is skewed to the lower end. Both graphs are placed on the same scale so that the counts of the graphs can be compared. While the counts of people who did Not have heart failure are lower than the counts of people who did HAVE heart failure, the graphs give a clear indication people who do not have heart failure have a higher maximum heart rate.</p>
+        <iframe height="500px" title = "Histogram_Sex_OldPeak_HF" src = "visualizations/histogram_Sex_OldPeak_HF.html"></iframe>
+      <p class = "indent"><br /> <br />Again, this first graph illustrates the Sex of participants with and without heart failure. Like the histogram of just the distribution of the sex without relation to heart failure, there are more males than females in the study. However, what the previous histogram didn't reveal was that in this data set, more males had heart disease than did not which compared to females had more females without heart disease than who did. </p>
       <p class = "indent">The final histogram reveals that a normal Old Peak should be 0. 253 participants without heart failure had an Old Peak of 0- 0.1 while 129 participants with heart failure had the same Old Peak. This data reveals that while Old Peak should be considered when determining heart failure, it is also due to other factors. If Old Peak were a factor that determined heart failure, less people with heart failure would have an Old Peak measurement of 0-0.1.</p>
       </div>
-      </body>
+                </div>
+      </section>
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
-                <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-                </div>
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- * * SB Forms Contact Form * *-->
-                <!-- * * * * * * * * * * * * * * *-->
-                <!-- This form is pre-integrated with SB Forms.-->
-                <!-- To make this form functional, sign up at-->
-                <!-- https://startbootstrap.com/solution/contact-forms-->
-                <!-- to get an API token!-->
-                <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                    <div class="row align-items-stretch mb-5">
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <!-- Name input-->
-                                <input class="form-control" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <div class="form-group">
-                                <!-- Email address input-->
-                                <input class="form-control" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <div class="form-group mb-md-0">
-                                <!-- Phone number input-->
-                                <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group form-group-textarea mb-md-0">
-                                <!-- Message input-->
-                                <textarea class="form-control" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Submit success message-->
-                    <!---->
-                    <!-- This is what your users will see when the form-->
-                    <!-- has successfully submitted-->
-                    <div class="d-none" id="submitSuccessMessage">
-                        <div class="text-center text-white mb-3">
-                            <div class="fw-bolder">Form submission successful!</div>
-                            To activate this form, sign up at
-                            <br />
-                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                        </div>
-                    </div>
-                    <!-- Submit error message-->
-                    <!---->
-                    <!-- This is what your users will see when there is-->
-                    <!-- an error submitting the form-->
-                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                    <!-- Submit Button-->
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton" type="submit">Send Message</button></div>
-                </form>
             </div>
         </section>
         <!-- Footer-->
