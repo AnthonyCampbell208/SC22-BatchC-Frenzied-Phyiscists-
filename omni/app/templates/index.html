@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Heart Disease Website</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="static/css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container" >
+              <div style="white-space:nowrap">
+                
+                <a class="navbar-brand" style="color:white; font-family:Montserrat; font-weight:400" href="#page-top">
+                Heart Disease Prediction</a>
+                  <a class="navbar-brand" href="#page-top"><img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/1723252/human-heart-clipart-xl.png" alt="..." /></a>
+              </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#services">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Visualization</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">Models</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading"></div>
+                <div class="masthead-heading text-uppercase">Heart Disease Predictor</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Tell Me More</a>
+            </div>
+        </header>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-heartbeat fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Why?</h4>
+                        <p class="text-muted">Heart Disease can be complicated and hard to diagnose. We decided to make our project goal about determining whether someone has heart disease, to make it easier for both doctors and regular people to handle heart disease.
+</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-question-circle fa-stack-1x fa-inverse"></i>
+                        </span>
+                      
+                        <h4 class="my-3">How?</h4>
+                        <p class="text-muted">Using machine learning models such as neural networks.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-info-circle fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Where?</h4>
+                        <p class="text-muted"> Our dataset is from the website:  <a href= "https://www.kaggle.com/"> Kaggle</a>.</p>
+                      <a href="https://www.kaggle.com/datasets/fedesoriano/heart-failure-prediction?datasetId=1582403&sortBy=voteCount">Heart Failure Prediction Dataset</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Visualizations Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Visualizations</h2>
+                    <h3 class="section-subheading text-muted">We used various visualizations to analyze our data to determine if there were trends that could be used in our Machine Learning Models.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4 text-center">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+<!--                                 <iframe  
+                                        class="img-fluid"                                       src="assets/img/violin_age.html" alt="..." /> -->
+                                        <img class="img-fluid" src="data:image/png;base64,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" alt="..." height = 800 width = 800 />
+                             
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Correlation Matrix</div>
+                                <div class="portfolio-caption-subheading text-muted">Displays the correlation between variables</div>
+                                <!-- change button to make it look better :) -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="https://cdn-icons-png.flaticon.com/512/3723/3723440.png" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Histograms</div>
+                                <div class="portfolio-caption-subheading text-muted">A graph that shows the count distributions of different variables</div>
+                            </div>
+                        </div>
+                    </div>
+              
+              
+              
+              
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" 
+                             data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="https://cdn-icons-png.flaticon.com/512/3723/3723446.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Box Plots</div>
+                                <div class="portfolio-caption-subheading text-muted">Shows distribution of data</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="https://cdn-icons-png.flaticon.com/512/3723/3723499.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Pie Charts</div>
+                                <div class="portfolio-caption-subheading text-muted">Shows part to whole relationships</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="https://cdn-icons-png.flaticon.com/512/3723/3723485.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Scatter Plot</div>
+                                <div class="portfolio-caption-subheading text-muted">Plots the relationship between two numerical variables</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="https://seaborn.pydata.org/_images/seaborn-violinplot-13.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Violin Plot</div>
+                                <div class="portfolio-caption-subheading text-muted">It shows the distribution and density of numerical data</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Models</h2>
+                    <h3 class="section-subheading text-muted">To view more information about the models, please click on the image.</h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image">
+<!--                           change popup for model, add hover css-->
+<!--                           or we could add an entirely new modal ig -->
+<!-- how would same modal work? -->
+<!--                           wdym same modal? -->
+                         <img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/961660-200.png" alt="..." data-bs-toggle="modal" href="#portfolioModal7"/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="subheading">Decision Trees</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Decision tree models use supervised learning and can be used for classification and regression. They classify data by passing it through different nodes based the data's attributes. The data is then classified once it reaches a “leaf”, or a node that does not split.</p></div>
+                        </div>
+                    </li>
+                  <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/1503830-200.png" alt="..." data-bs-toggle="modal" href="#portfolioModal8"/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="subheading"> Random Forest</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Random Forests are an ensemble learning method that utilizes multiple decision trees to reach an outcome. The individual decision trees classify the data and then vote on the final outcome. 
+</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/1503819-200.png" alt="..." data-bs-toggle="modal" href="#portfolioModal9"/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="subheading">Adaboost</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Adaboost is a ensemble learning method that uses multiple decision stumps, which have one node and two leaves as opposed to trees which contain multiple, to classify data. 
+</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/2046068-200.png" alt="..."data-bs-toggle="modal" href="#portfolioModal10" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="subheading">Logistic Regression</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Logistic Regression models make binary predictions based on the relationship between one or more independent variables. </p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/2312011-200.png" alt="..." data-bs-toggle="modal" href="#portfolioModal11"/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="subheading">Support Vector Classifier</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Support Vector Classification Model uses two groups of data to categorize new data.  It does this by plotting the data onto a graph, and then using a hyperplane to split the data according to the group that the data belongs to.
+</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/614252-200.png" alt="..." data-bs-toggle="modal" href="#portfolioModal12"/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="subheading"> Naive Bayes</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Naive Bayes classifies a point by its given x values and figures out the probability of y given the x variables, in order to classify the data point.</p></div>
+                        </div>
+                    </li>
+                  <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/969745-200.png" alt="..."data-bs-toggle="modal" href="#portfolioModal13" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="subheading">K Nearest Neighbors</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">KNN stands for K-Nearest-Neighbors.
+It finds the data points that the input are closest to and then uses that data to classifies the input.
+</p></div>
+                        </div>
+                    </li>
+                  <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/1503825-200.png" alt="..."data-bs-toggle="modal" href="#portfolioModal14" /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="subheading"> Neural Network</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">A neural network tries to simulate the human brain through layers and nodes. The data passes through the an input layer, hidden layers, and ultimately an output layer which are all connected through nodes. </p></div>
+                        </div>
+                    </li>
+                  <li >
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="https://static.thenounproject.com/png/2952658-200.png" alt="..."data-bs-toggle="modal" href="#portfolioModal16" height = "150" width = "150"/></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="subheading">Model Scores</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">We evaluated all these models based on their accuracy score, precision score, recall score, and f1 score. Click on the image to view both the scores and what they mean for each model. </p></div>
+                        </div>
+                    </li>
+                </ul>
+              <br/>
+        <div align='center'>
+                              <h2 class="section-heading text-uppercase"></h2>
+          <br/>
+                    <h3 class="section-heading text-uppercase">Conclusion</h3>
+                    <p>
+           In conclusion, we wanted to make different machine learning models to see if we can predict heart disease, and we did exactly that. In the end, we found that adaboost, random forest, and k nearest neighbors were our best models, while mlp and random forest grid were our worst models.If we were to improve our project for the future, we would try to reduce the number of false negatives since they are the most harmful when it comes to trying to diagnose heart disease. We would also try and use more complex models that could possibly be better at finding a trend and thus improve our accuracy. 
+          </p>
+              </div>
+          </div>
+          
+          <form action="" method="post">
+                
+<!-- 'Age', 'Sex', 'ChestPainType', 'RestingBP', 'Cholesterol', 'FastingBS',
+       'RestingECG', 'MaxHR', 'ExerciseAngina', 'Oldpeak', 'ST_Slope',
+                 -->
+                
+  <label for="Age">Age</label>
+  <input type="text" name="Age" placeholder="Age" required="required" class = "form-text"/>
+  <br>     
+                
+  <label for='Gender'>Gender</label>
+  <select id='Gender' name='Gender' required="required" class="form-select">
+  <option value="" disabled selected hidden>Select Your Gender:</option>
+  <option value='1'>Male</option>
+  <option value='0'>Female</option>
+  </select>
+  <br>
+                
+  <label for='Chest Pain Type'>Chest Pain Type</label>
+  <select id='Chest Pain Type' name='Chest Pain Type' required="required" class="form-select">
+  <option value="" disabled selected hidden>Select Your Chest Pain Type:</option>
+  <option value='0'>ATA</option>
+  <option value='1'>NAP</option>
+  <option value='2'>ASY</option>
+  <option value='3'>TA</option>
+  </select>
+  <br>
+
+ <label for="Resting BP">Resting BP </label>
+  <input type="text" name="Resting BP" placeholder="Resting BP" required="required" class = "form-text"/>
+  <br>  
+                
+ <label for="Cholesterol">Cholesterol</label>
+  <input type="text" name="Cholesterol" placeholder="Cholesterol" required="required" class = "form-text"/>
+  <br>                   
+                
+ <label for="Fasting BS">Fasting BS</label>
+  <input type="text" name="Fasting BS" placeholder="Fasting BS" required="required" class = "form-text"/>
+  <br>                   
+
+  <label for='Resting ECG'>Resting ECG</label>
+  <select id='Resting ECG' name='Resting ECG' required="required" class="form-select">
+  <option value="" disabled selected hidden>Select Your Resting ECG:</option>
+  <option value='0'>Normal</option>
+  <option value='1'>ST</option>
+    <option value='2'>LVH</option>
+  </select>
+  <br>          
+                
+ <label for="Max HR">Max HR</label>
+  <input type="text" name="Max HR" placeholder="Max HR" required="required" class = "form-text"/>
+  <br>          
+                
+  <label for='Exercise Angina'>Exercise Angina </label>
+  <select id='Exercise Angina' name='Exercise Angina' required="required" class="form-select">
+  <option value="" disabled selected hidden>Select Your Gender:</option>
+  <option value='1'>Yes</option>
+  <option value='0'>No</option>
+  </select>
+  <br>
+
+ <label for="OldPeak">Old Peak</label>
+  <input type="text" name="OldPeak" placeholder="OldPeak" required="required" class = "form-text"/>
+  <br>          
+                
+  <label for='St Slope'>St Slope</label>
+  <select id='St Slope' name='St Slope' required="required" class="form-select">
+  <option value="" disabled selected hidden>Select Your ST Slope:</option>
+  <option value='0'>UP</option>
+  <option value='1'>Flat</option>
+  <option value='2'>Down</option>
+
+  </select>
+  <br>                
+                
+ 
+  <br>
+     <button type="submit" class="btn btn-primary btn-block btn-large" style="margin-left: 525px; text-align:center">Predict</button>
+                      </form>
+ <br>
+ <br>
+   {% if prediction_text %}
+           <p class= "lead" style="margin-left:700px; margin-top: 2rem;"><b>
+             We believe you have <strong></strong>  {{ prediction_text }}!
+                 </b> </p>
+                  
+          {% endif %}
+        </section>
+          
+        <!-- Team-->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
+                    <h3 class="section-subheading text-muted">We spent three weeks learning how to code and work together.</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/anthony.jpg" alt="..." />
+                            <h4></h4>
+                            <p class="text-muted">Anthony Campbell</p>
+                              <div class="col-lg-8 mx-auto text-center">
+                                <p class="large text-muted">Hi, my name is Anthony Campbell and I am the leader of the Frenzied Physicists. I received a double major in Computer Science and Statistics at the University of Massachusetts Amherst. I’m really proud of the work that my team has done over the past 3 weeks, from building a website to utilizing machine learning models to predict heart failure. I’m sure that everyone is going to do great things in life and I wish them all the best!!! </p>
+                              </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/tl.jpg" alt="..." />
+                            <h4></h4>
+                            <p class="text-muted">Thomas Li</p>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">I am from Massachusetts and have loved AI and coding since a young age. I like eating ice cream and playing my instrument </p></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Jeff.png" alt="..." />
+                            <h4></h4>
+                            <p class="text-muted">Jeffrey Wang</p>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Hi, I'm Jeffrey Wang, a member of the Frenzied Physicists. I do some coding for fun, along with the piano and robotics at my school.  </p></div>
+                        </div>
+                    </div>
+                  <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Screen Shot 2022-08-04 at 9.05.29 PM.png" alt="..." />
+                            <h4></h4>
+                            <p class="text-muted">Rhone Galchen</p>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">I am from New York and am interested in coding and AI, and enjoy playing chess and soccer </p></div>
+                    </div>
+                  </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/emmam.jpg" alt="..." />
+                            <h4></h4>
+                            <p class="text-muted">Emma Morales</p>
+                     <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Hi! My name is Emma and I am from Texas. I am interested in computer science and AI. I also love to play music and learn new things.  </p></div>
+                        </div>
+                  </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/halli.jpg" alt="..." />
+                            <h4></h4>
+                            <p class="text-muted">Halli Hewett</p>
+                            <div class="col-lg-8 mx-auto text-center">
+                              <p class="large text-muted">Hello! My name is Halli. I am from Texas and I had fun coding and working on this project. In my free time I read and play piano.</p>
+                            </div>
+                    </div>
+                    </div>
+                      <div class="col-lg-4">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="assets/img/team/Kenju.PNG" alt="..." />
+                            <h4></h4>
+                            <p class="text-muted">Kenju Tomita</p>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large text-muted">Hi, I am Kenju. I am from New York and I am interested in coding and AI, and in this project I learned a lot about the finer details of AI, as well as on how to create models and visualizations based on data.</p></div>
+                    </div>
+                      </div>
+          </div>
+          </div>
+        </section>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+              
+                    </div>
+                </div>
+             </div>
+        </section>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">AI Camp 2022</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Heart Disease Predictor</h2>
+                              <p class="item-intro text-muted">Correlation Matrix</p>
+<p class="item-intro text-muted">Displays the correlation between variables</p>
+                                   <iframe frameborder='0' scrolling='no' width= 760 height=850  title="Type/Flight Correlation Matrix" src="{{url_for('static', filename='\visualizations\corr_matrix.html')}}"></iframe>
+                                    <p>This correlation matrix is comparing all columns in the table to see how correlated they are in other. This meaning, that a strong correlation means that there is a significant trend found in relation to another, and then scaling down until you get to neglibible in which they barely affect each other to no correlation where they have no affect at all on each other. Overall for most of the values there was either practically no correlation, a neglegible correlation, or a weak correlation. The highest instances would be described as a moderate correlation(if you take the definition of a moderate correlation to be between 0.5 and 0.7).These instances came in the relationship between ST_Slope and old peak with a correlation of 0.502, and a moderate correlation between heart disease and ST_Slope of 0.599. ST_Slope is measured during a heart test and is supposed to go up when one does exercise. Therefore, an abnormal slope would be either staying flat or trending downward which could be a sign of heart disease. There are then a number of high low correlations coming to either 0.4 up to 0.494. The overall trend was that the bulk of the columns were correlated to each other between the correlation number of the absolute value 0.09 to the absolute value 0.35. There was a wide spread of values being both positive, meaning when one increases, the other can increase, and negative, which means when one value increases the other decreases. There were also some factors with an especially low correlation towards everything, namely RestingECG which had a highest value resulting in a weak correlation of 0.213 but often below 0.1.</p>
+                                   
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Heart Disease Predictor</h2>
+                                    <p class="item-intro text-muted">Histograms</p>
+<p class="item-intro text-muted">A graph that shows the count distributions of different variables</p>
+                                      <p align = "left">
+                                <iframe width= 850 height=850 title="Histogram_Age_HF" src="{{url_for('static', filename='visualizations/histogram_Age_HF.html')}}"></iframe></p>
+                                  <p>The turning point within the dataset is ages forty-six to forty-seven. When you compare the data of the ages of those younger than forty-six to forty-seven, more people do NOT have heart failure. Whereas after ages forty-six to forty-seven, more people had heart failure than people who did not. The peak of the count of people who had heart failure was centered at around ages fifty-four to sixty-three with age ranges of fifty-six to fifty-seven and ages fifty-eight to fifty-nine both having the greatest count of 51 participants having heart failure.  The distribution of the graph of people without heart failure is distributed differently. The highest count of people who did NOT have heart failure was 45 participants ages fifty-four to fifty-five.  The graph of people without heart failure is less smooth, with a greater change between age ranges.</p> 
+                                      
+                                   
+                                   <a href="./histogram.html"><button class="btn btn-primary btn-xl text-uppercase"  type="button">
+                                     Read More </button></a>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Boxplots</h2>
+                                    <p class="item-intro text-muted">Boxplots are a type of visualization that shows the distribution of data<br><br><br><br><br><br></p>
+
+                                  <p><font size="8"  color="black">
+Heart Disease vs Maximum Heartrate
+</font></p>
+                                  <iframe width="1000" height="800" title="Box Plot" src="{{url_for('static', filename='visualizations/box_maxhr_hd.html')}}"></iframe>
+                                  <p>This visualization shows the Maximum heart rate for two groups, one with heart disease, and one without. In the heart disease boxplot, 50% of the data is between 112 and 144.5, and the rest of the data is between 67 and 182
+In the group without heart disease, the boxplot shows that 50% of the data is between 134 and 165, and the rest of the data is between 90 and 202
+The group without heart disease seems to have a much higher heart rate compared to the group with heart disease. From this data, we can conclude that heart rate might be an important factor in determining if someone has heart disease.
+
+</p>
+                                  
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong></strong>
+                                            
+                                        </li>
+                                        <li>
+                                            <strong>  </strong>
+                                            
+                                        </li>
+                                    </ul>
+                                  
+                                    
+                                  <a href="./box.html"><button class="btn btn-primary btn-xl text-uppercase"  type="button">
+                                     Read More </button></a>
+                                  <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Visualization
+                                    </button>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                       <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Pie Charts</h2>
+                                    <p class="item-intro text-muted">Shows a part to whole relationship.</p>
+                               <iframe width="500" height="500" title="Pie Chart" src="visualizations/pie_overall_chest_pain.html"></iframe>
+                                 <!--   <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/4.jpg" alt="..." /> -->
+                                  <iframe width="800" height="700" title="Pie Chart" src="visualizations/pie_comp_chest_pain.html"></iframe>
+                                    <p>
+Atypical Angina (ATA) = 0
+Non-Anginal Pain (NAP) = 1
+Asymptomatic (ASY) = 2
+Typical Angina (TA) = 3
+
+Overall, 54% of patients were asymptomatic and experienced no chest pain. The second most prevalent pain was non-anginal pain, followed by atypical angina. A small minority experienced typical angina. In patients with heart disease, an overwhelming majority were asymptomatic, with only 22.86% experiencing any pain. A minority of patients with heart disease had typical angina and atypical angina. However, in patients without heart disease, a third suffered non-anginal pain and another third suffered atypical angina. Asymptomatic chest pain made up a quarter of patients without heart disease, and a minority suffered typical angina. Among both groups, typical angina was the least common type of chest pain. However, a much larger percentage of patients with heart disease were asymptomatic compared to patients without heart disease.</p>
+                               <iframe width="500" height="500" title="Pie Chart" src="visualizations/pie_overall_angina.html"></iframe>
+                               <iframe width="800" height="700" title="Pie Chart" src="visualizations/pie_comp_angina.html"></iframe>
+                                  <p>
+                                    
+No = 0
+Yes = 1
+
+A majority of patients did not experience exercise angina. However, in patients with heart disease, an overwhelming majority (85.2%) experienced exercise angina. In great contrast, about two thirds of patients without heart disease did not experience exercise angina and around a third did. Heart disease could be a factor that contributes to exercise angina, but exercise angina is not necessarily an indicator of heart disease considering a considerable amount of patients without heart disease experienced it as well.
+                                  </p>
+                                  
+                                  
+                                  <!--  <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Lines
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Branding
+                                        </li>
+                                    </ul>-->
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Scatter plot</h2>
+                                    <p class="item-intro text-muted">Plotting the relationship between all numerical values</p>
+                                    
+                                  <iframe width="800" height="1100" title="Type/Flight Box Plot" src="visualizations/scatterplot_matrix.html"></iframe>
+                                  
+                                    <p>This is a scatter matrix which shows the scatter plots comparing all the continuous inputs in the data frame. I think this matrix shows that although heart disease is complicated and nothing is exactly one to one, there are general trends with certain traits that increase risks. For example, in the Age and MaxHR scatter plot, we see that people with heart disease generally trend towards being older and having a lower MaxHR. We can also see that people with a high Oldpeak tend to have heart disease. Some variables also have limited relationships with others. For example, we can see that broadly speaking, the higher the age the higher the resting RestingBP
+</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                   <h2 class="text-uppercase">Violin Plot</h2>
+                                    <p class="item-intro text-muted">Distribution and density of numerical data.</p>
+                                  <iframe width="800" height="700" title="Violin Plot" src="visualizations/violin_cholesterol.html"></iframe>                                 
+                                    <p>Interestingly, it seems like cholesterol levels are very similar in all groups. While the values in the male group with heart disease have a larger range than its sibling, the female group's graphs are the opposite. Additionally, the distributions overlap almost entirely, with the heart disease group only being slightly higher in cholesterol levels than the no heart disease group.</p>
+                                       
+                                                                                                  <a href="./violin.html"><button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                       
+                                        Read More
+                                    </button>
+                                      </a>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>              
+          
+          
+          
+<!--           </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Photography
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- Portfolio item 7 modal popup (temp)-->
+        <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                   <h2 class="text-uppercase">Decision Tree</h2>
+                                  <img src="https://cocalc3.ai-camp.dev/d5a3aa23-997d-4ffc-977a-1dc20c583e62/raw/.smc/jupyter/blobs/a.png?sha1=97e7d93e603664dc6a45879b8179fcb10f2efbb4&attempts=0" alt="Decision Tree" width = 1000 height = 950/>
+                                    <p class="item-intro text-muted"></p>
+                                  <p>A decision tree classifier model classifies data as it passes through the nodes in the tree and uses the gini index to determine where to split. In order to optimize the decision tree, I used cv and randomized cv to find the best hyperparameters. Hyperparameters are attributes of models that can be changed to yield more accurate results. Some of the hyperparamaters that can be changed for decision trees include max depth, which controls how many times the tree splits, minimum samples split, which controls the number of samples needed to split an internal node, and minimum samples leaf, which controls the minimum number of samples needed at a leaf. It has a max depth of 54, minimum samples split of 33, minimum samples leaf of 11, and accuracy of 0.84  </p>
+                        <img src="confusion_matrices/dt.jpg" alt="DT heat map"/>            
+                                  <p> The confusion matrix above displays the results from the decision tree's training and testing. The top left square represents the number of true positives (Correctly diagnosing the patient with heart disease), the bottom left square represents false positives (Incorrectly diagnosing a patient with heart disease when they do not), top right represents false negatives (Incorrectly saying a patient does not have heart disease when they do), and the bottom represents true negatives (Correctly saying a patient does not have heart disease). Ideally, the number of false negatives and false positives would be as low as possible, which is achieved through optimization.     </p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+          
+          
+          
+        <!-- Portfolio item 8 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Random Forest</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <p>A random forest classifier is an ensemble of decision trees that work together to classify data. Individually, decision trees are weak models, but are powerful when they work together. Each decision tree in the random forest individually classifies the data, and the outcome with the most votes becomes the final outcome of the model. I used randomized cv to find the best hyperparameters for the model. The hyperparameters of random forest models are similar to decision trees, with the added parameter, max number of estimators which controls the max number of decision trees used in the model.The max number of estimators is 67, the max depth is 90, and the model has an accuracy of 0.89, which is greater than an individual decision tree.</p>
+                                  <img src="confusion_matrices/rf.jpg" alt="RF heat map"/>
+                                  <p> The confusion matrix above displays the results of the random forest's training and testing. Compared to the decision tree, the number of false negatives and false positives is lower. 
+                                    
+                                  </p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 9 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Adaboost</h2>
+                                    <p class="item-intro text-muted"></p>
+                                <img src = "confusion_matrices/ada.jpg" alt="Adaboost heat map" />
+                                    <p>
+Adaboost is an example of ensemble learning, where several basic algorithms are combined to make one more optimized algorithm. For example, with a decision tree, instead of hoping one decision tree can correctly guess a result, ensemble learning will take multiple decision trees and combine them together to create a stronger algorithm.
+
+Adaboost is also a sequential learning version of ensemble learning, where every model is made in order, and the newest model learns from the previous model's failures. It does this by "boosting", or reducing the error through methods such as increasing the weights of data that was mislabeled.
+
+However, Adaboost is extremely sensitive to noisy data and outliers, which is why it is highly recommended to remove outliers from data with Adaboost.
+
+Here, Adaboost was used on our heart disease dataset, with a mean squared error of 0.12 on our testing data, and an overall accuracy score of 0.880 and a precision score of 0.880. This is a decent score for a machine learning model, but when it comes to diagnosis it probably isn't the best and there is certainly a more ideal model.
+</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 10 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Logistic Regression</h2>
+                                    <p class="item-intro text-muted">text</p>
+                                  <img src="confusion_matrices/lr.jpg" alt="LR heat map" />
+                                    <p>The model is a logistic regression and it works by predicting whether someone has heart disease or if they do not. It classifies them into one of these two groups . We changed some parameters such as the weight, training and testing data. I think it performed well in predicting if someone has heart disease and classifying them into two groups. It does this by analyzing relationships between two independent variables. The coefficient of the linear regression model shows the relationship between the variables by multiplying it with a certain value and a higher/lower coefficient indicates which classification the data point would be predicted to be in. 
+
+</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 11 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                 
+                                    <h2 class="text-uppercase">Support Vector Classifer(SVC)</h2>
+                                    <p class="item-intro text-muted">Confusion Matrix below(top left is correct positive, top right is false positive, bottom left is false negative, and bottom right is correct negative.</p>
+                                  <img src = "confusion_matrices/my_SVC_model.jpg">
+                                    <p>
+Support Vector Classification Model uses two groups of data to categorize new data. It does this by plotting the data onto a graph, and then using a hyperplane to split the data according to the group that the data belongs to. The hyper-parameters that could be fine tuned are the Kernel, the C value, the Gamma value, and the Degree. I decided to use a RandomizedSearchCV to determine the best parameters. When testing, for the best parameters, I ran into some problems. The first problem was how long it took too long to run the program. The program would run for about thirty minutes, and still not find a best fit for the graph. In response, I decided to decrease the amount of variables the RandomizedSearchCV needed to look for, and additionally, the range that each variable could search within. In the end, I decided that testing the C value, the Gamma value, and the Kernel would be most helpful in optimizing the model. According to my values the RandomizedSearchCV determine the best parameters was a Kernel of linear, a Gamma value of 96, and a C value of 9. I ended up getting an accuracy score of 0.72 with 56 true positive,  24 false positives, 27, false negatives, and 77 true negatives.
+</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 12 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Gaussian Naive Bayes</h2>
+                                    <img src="confusion_matrices/gnb.jpg">
+                                   
+                                    <p class="item-intro text-muted">The image you see above is a confusion matrix that displays in the top left correct positive diagnosis, top right incorrect positive diagnose, bottom left incorrect negative diagnosis, bottom right correct negative diagnosis </p>
+                                    <p>Gaussian Naive Bayes is for binary classification and assumes that all continuous data has normal distribution, and that all features are independent and equal from each other. The Naive Bayes finds the probability of the predicted outcome(y variable) given the x values and then classifies the point based on whether one of the classifications had a higher probability than the other classification. In order to optimize the function, I stratified the data, which raised the accuracy score from 0.83 to 0.885 while also scaling the data though that did not cause a change in the accuracy score or any of the other measures. The results ending up giving a accuracy score of 0.885, a precision score of 0.878, a recall score of 0.921, and an f1 score of 0.899. This resulted in 8 false negatives and 13 false positives out of 184 points in what I believe can be described as an accurate model. One problem is that there are 8 false negatives(4.3 percent of people) as that puts someones life at risk due to them not getting treated for heart disease.
+</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 13 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">K Nearest Neighbors</h2>
+                                    <img src="confusion_matrices/knn.jpg">  
+                                    <p>KNN works through proximity to make classifications or predictions about the grouping of an individual data point. Our KNN model had a accuracy of 86% and a recall of 90%. Above is a confusion matrix depicting the results of our model on the testing data set and it shows that this model has a higher chance of a false positive than a false negative.
+</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 14 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Neural Network</h2>
+                                  <p>Our neural network for this project had 3 hidden layers. We trained it with a 0.3 validation split for 25 epochs. The result is a model that hovers at around 85-89% accuracy.` 
+</p>
+                                    <img src="confusion_matrices/nn.jpg">
+                                    <p> Above is a confusion matrix which shows the predictions versus the actual results on the testing data set. We can see that in 27 cases, the model guessed that the patient had heart disease when they did not and in 15 cases where the model guessed the patient didn't have heart disease when they did. 
+</p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <!-- Portfolio item 15 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Scores</h2>
+                                      
+                                    <iframe width="1000" height="400" title="Box Plot" src="visualizations/scores.html"></iframe>
+          <p>
+           Above is the scores table showing the score results of all of our models. We can see that Adaboost, KNN, and Random Forest performed the best out of all the models while mlp and random forest grid performed the worst.
+          </p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 16 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Scores</h2>
+                                                                    <div style="text-align:left">    
+                                    <iframe width="1000" height="400" title="Box Plot" src="visualizations/scores.html"></iframe>
+                                    
+          <p>
+           Above is the scores table showing the score results of all of our models. We can see that Adaboost, KNN, and Random Forest performed the best out of all the models while MLP and Random Forest model with a Grid Search algorithm performed the worst.
+                                  <br />
+            <br/>
+            The random forest performed the best out of all of the models. It had the highest F1, recall, accuracy, and precision scores. These scores are very similar to the Adaboost mode, which makes sense because they’re both ensemble methods. Both of these models had scores in the high 80’s to the low 90’s.
+            <br/>
+<br />
+ On the other end of the spectrum, the MLP and the decision tree did not perform very well. These had scores that were low relative to the other models. They had scores in the mid to low 80’s. The MLP could have performed poorly because we didn’t add enough layers or we made it too complex. The DTC probably wasn’t able to make complex enough decisions but once it was used in the random forest and adaboost it performed much better.  
+            <br /><br/>
+To aid low scores, a Grid Search algorithm was implemented to tune the hyperparameters of the models. The grid search did improve the scores of the decision tree model, significantly raising its accuracy, precision, recall, and f1_score. However, in some cases grid search harmed the performance of the models. For example, the scores of the knn and random forest model were negatively impacted by grid search. When using grid search, due to it having a smaller training set to find the optimal parameter which thus may make it less accurate in finding the optimal parameter because it has less data. Another reason is because the grid search CV could not have an optimal parameter list which is too small and thus may miss the actual optimal datapoint. 
+ 
+<br /><br/>
+In the cases of KNN with Grid Search, KNN, Logistic Regression, Decision Tree, Random Forest with Grid Search and Naive Bayes models, all had precision higher than recall, and only the models of Random forest and SVC having a lower precision than recall. A higher precision than recall rate means that there was a lower rate of false positives than false negatives. This is not  beneficial because it is better to be a false positive than a false negative because a false negative will leave a patient with heart disease uncared for and thus in danger.
+            <br />
+          </p>                                  </div>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-xmark me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="static/js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                                           <iframe width="800" height="700" title="Pie Chart" src="visualizations/pie_comp_chest_pain.html"></iframe>
+                      * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
+
